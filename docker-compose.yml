@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  monitoring-bot:
+    build: .
+    container_name: ario-monitoring-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - default
+      # Connect to AR.IO network if running alongside AR.IO stack
+      - ar-io-network
+
+networks:
+  ar-io-network:
+    external: true
+    # If running standalone, comment out 'external: true' and it will create its own network
