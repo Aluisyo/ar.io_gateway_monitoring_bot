@@ -57,7 +57,7 @@ Self-hosted monitoring solution for AR.IO gateway operators. Get instant Telegra
 cd /path/to/ar-io-node
 
 # Clone the monitoring bot
-git clone https://github.com/your-username/ario-monitoring-bot.git monitoring
+git clone https://github.com/Aluisyo/ar.io_gateway_monitoring_bot monitoring
 cd monitoring
 
 # Configure
@@ -68,7 +68,7 @@ nano .env  # Add your Telegram credentials
 **Option B: Standalone**
 
 ```bash
-git clone https://github.com/your-username/ario-monitoring-bot.git
+git clone https://github.com/Aluisyo/ar.io_gateway_monitoring_bot
 cd ario-monitoring-bot
 cp .env.example .env
 nano .env  # Configure all settings
@@ -443,8 +443,9 @@ MIT License - See LICENSE file for details
 
 For issues and questions:
 - Open a GitHub issue
-- Join [AR.IO Discord](https://discord.gg/ario)
+- Join Discord https://discord.gg/Cze88g29Ue
 
 ---
+If you love this work, you can buy me a coffee or a Lambo: jVkr55dzNnsjz_hmj0TFvUcG08a5qBqWi28pa_hAwNc
 
 Built with ❤️ for the AR.IO community
